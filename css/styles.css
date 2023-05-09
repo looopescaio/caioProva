@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black
+}
+.mainContainer {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 5rem;
+    width: 50%;
+}
+
+.mainContainer p,h2 {
+    color: aliceblue
+}
+
+.mainContainer h1,h3 {
+    color: chartreuse
+}
+
+.mainContainer h1 {
+    margin: 0;
+}
+.mainContainer h2 {
+    margin-top: 0;
+}
+
+.imageContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.imageContainer img {
+    width: 12rem;
+    border-radius: 50%;
+    border: chartreuse solid 0.3rem;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+
+  nav {
+   background-color:gray;
+    color: white;
+    padding: 10px;
+    
+    left: 0;
+    width: 100%;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+
+nav li a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form label {
+    color: aliceblue;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+}
+	
